@@ -1,153 +1,51 @@
-# Session 14 — Implement Security for Servers and Virtual Machines — Part 3
+# Session 14 — Server and Virtual Machine Security — Part 3 (Modules 6–7)
 
-**SC-500 — Modules 6–7**
+**SC-500 — Container security and Azure Kubernetes Service hardening**
 
 | | |
 |---|---|
 | **Date** | Saturday, 3 October 2026 |
 | **Mentor** | Imoh Etuk |
 | **Moderator** | Chidimma Ugwu |
-| **Microsoft Learn** | [https://learn.microsoft.com/en-us/training/paths/server-vm-security/](https://learn.microsoft.com/en-us/training/paths/server-vm-security/) |
+| **Microsoft Learn** | [Implement host security in Azure](https://learn.microsoft.com/en-us/training/paths/implement-host-security/) |
 | **Modules Covered** | Modules 6–7 |
 
 ---
 
-> **Mentees:** Fork this repository, open this file, and fill in your notes below after each session. Commit your changes and open a Pull Request.
+## About This Session
+
+The third and final server security session moves into containers — a modern way of packaging and running applications that is increasingly used in enterprise cloud environments.
+
+You will learn how containers differ from VMs in terms of security, how to secure container images in Azure Container Registry (scanning for vulnerabilities before deployment), and how to harden Azure Kubernetes Service (AKS) clusters — including RBAC for Kubernetes, network policies, and Microsoft Defender for Containers.
+
+**By the end of this session you will be able to:**
+- Explain the security model of containers vs virtual machines
+- Scan container images for vulnerabilities using Defender for Containers
+- Apply Kubernetes RBAC and network policies to restrict access within a cluster
+- Enable Microsoft Defender for Containers and interpret its alerts
 
 ---
 
-## How to Use This File
+## How to Submit Your Notes
 
-1. **Fork** the repository from [Microsoft-Naija-Security-Usergroup/github-onboarding-workshop](https://github.com/Microsoft-Naija-Security-Usergroup/github-onboarding-workshop)
-2. Navigate to `classes/` and open this file
-3. Fill in your **GitHub username** and complete all sections below
-4. Commit with a message like: `docs: add [Your Name] notes for Session 14`
-5. Open a **Pull Request** back to this repo
+> You do not need to know git commands. Just follow these 5 steps.
 
----
-
-## My Details
-
-**Name:**  
-**GitHub Username:**  
-**Session Attended:** Session 14 — Saturday, 3 October 2026  
+1. **Fork** this repository — click the **Fork** button at the top-right of the [main repo page](https://github.com/Microsoft-Naija-Security-Usergroup/github-onboarding-workshop)
+2. **Navigate** into `classes/session-14-2026-10-03-server-vm-security-pt3/` on your forked repo
+3. **Download** the template file `server-vm-security-pt3-yourname-template.md` — click it, then click the **Raw** button, then right-click and choose *Save As*
+4. **Rename** the file on your computer — replace `yourname` with your actual name in lowercase with hyphens, e.g. `server-vm-security-pt3-firstname-lastname.md`
+5. **Fill in your notes** using any text editor (Notepad, VS Code, TextEdit)
+6. **Upload** your completed file back to GitHub — go into `classes/session-14-2026-10-03-server-vm-security-pt3/` on your fork, click **Add file → Upload files**, drag in your file, then click **Commit changes**
+7. **Open a Pull Request** — the facilitator will review your notes before merging
 
 ---
 
-## Pre-Session Preparation
+## Session Files
 
-*Complete this before attending the session.*
-
-**Did you read the Microsoft Learn module ahead of the class?**
-- [ ] Yes — I read the full module
-- [ ] Yes — I read parts of it
-- [ ] No — I will catch up after
-
-**One thing I want to learn from this session:**
-> 
-
-**A question I am bringing into today's session:**
-> 
-
----
-
-## Session Notes
-
-*Take notes during the live session. Use bullet points, code blocks, or any format that works for you.*
-
-### Key Concepts Covered
-
-> 
-
-### Important Points from the Mentor
-
-> 
-
-### Definitions I Learned
-
-| Term | Definition |
-|------|-----------|
-| | |
-| | |
-| | |
-
-### Commands / Code Snippets
-
-```bash
-# Add any CLI commands, code, or config snippets from the session here
-```
-
-### Screenshots / Diagrams
-
-*Describe any diagrams or screenshots that were helpful (you cannot upload images here — describe them in words or link to a screenshot in your fork):*
-> 
-
----
-
-## Hands-On Practice
-
-*Document any labs, demos, or exercises you followed during or after the session.*
-
-### What I practised
-
-> 
-
-### Steps I followed
-
-1. 
-2. 
-3. 
-
-### Errors I encountered and how I solved them
-
-> 
-
----
-
-## Key Takeaways
-
-**Top 3 things I learned today:**
-
-1. 
-2. 
-3. 
-
-**How does this topic connect to the SC-500 exam objectives?**
-> 
-
-**How would I apply this in a real-world security scenario?**
-> 
-
----
-
-## Questions for Next Session
-
-*Note any questions that came up that you want to raise in the next session or in the community channel:*
-
-- 
-- 
-
----
-
-## Resources I Found Useful
-
-*Add any extra links, articles, or docs you found while studying this topic:*
-
-| Resource | Link |
-|----------|------|
-| Microsoft Learn Module | [https://learn.microsoft.com/en-us/training/paths/server-vm-security/](https://learn.microsoft.com/en-us/training/paths/server-vm-security/) |
-| | |
-| | |
-
----
-
-## Self-Assessment
-
-**How confident do you feel about this topic after today? (1 = not confident, 5 = very confident)**
-> 
-
-**What would you like to explore further?**
-> 
+| File | Purpose |
+|------|---------|
+| `README.md` | This file — session overview and instructions |
+| [`server-vm-security-pt3-yourname-template.md`](./server-vm-security-pt3-yourname-template.md) | Template to download, rename, and fill in |
 
 ---
 

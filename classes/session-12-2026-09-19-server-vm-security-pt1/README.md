@@ -1,153 +1,51 @@
-# Session 12 — Implement Security for Servers and Virtual Machines — Part 1
+# Session 12 — Server and Virtual Machine Security — Part 1 (Modules 1–3)
 
-**SC-500 — Modules 1–3**
+**SC-500 — Securing compute infrastructure in Azure**
 
 | | |
 |---|---|
 | **Date** | Saturday, 19 September 2026 |
 | **Mentor** | Imoh Etuk |
 | **Moderator** | Chidimma Ugwu |
-| **Microsoft Learn** | [https://learn.microsoft.com/en-us/training/paths/server-vm-security/](https://learn.microsoft.com/en-us/training/paths/server-vm-security/) |
+| **Microsoft Learn** | [Implement host security in Azure](https://learn.microsoft.com/en-us/training/paths/implement-host-security/) |
 | **Modules Covered** | Modules 1–3 |
 
 ---
 
-> **Mentees:** Fork this repository, open this file, and fill in your notes below after each session. Commit your changes and open a Pull Request.
+## About This Session
+
+Virtual Machines (VMs) are the workhorses of cloud computing — and they are also a major attack surface if not properly hardened. This session starts a three-part series on securing servers and VMs in Azure.
+
+Part 1 covers the basics: enabling Microsoft Defender for Servers, configuring Just-in-Time (JIT) VM access (so RDP and SSH ports are only opened for a specific person for a limited time), applying security baselines, and understanding what Azure Security Benchmark means for compute resources.
+
+**By the end of this session you will be able to:**
+- Enable and interpret Microsoft Defender for Servers recommendations
+- Configure Just-in-Time VM access to eliminate standing RDP/SSH exposure
+- Apply security baselines to harden Windows and Linux VMs
+- Explain the Azure Security Benchmark for compute resources
 
 ---
 
-## How to Use This File
+## How to Submit Your Notes
 
-1. **Fork** the repository from [Microsoft-Naija-Security-Usergroup/github-onboarding-workshop](https://github.com/Microsoft-Naija-Security-Usergroup/github-onboarding-workshop)
-2. Navigate to `classes/` and open this file
-3. Fill in your **GitHub username** and complete all sections below
-4. Commit with a message like: `docs: add [Your Name] notes for Session 12`
-5. Open a **Pull Request** back to this repo
+> You do not need to know git commands. Just follow these 5 steps.
 
----
-
-## My Details
-
-**Name:**  
-**GitHub Username:**  
-**Session Attended:** Session 12 — Saturday, 19 September 2026  
+1. **Fork** this repository — click the **Fork** button at the top-right of the [main repo page](https://github.com/Microsoft-Naija-Security-Usergroup/github-onboarding-workshop)
+2. **Navigate** into `classes/session-12-2026-09-19-server-vm-security-pt1/` on your forked repo
+3. **Download** the template file `server-vm-security-pt1-yourname-template.md` — click it, then click the **Raw** button, then right-click and choose *Save As*
+4. **Rename** the file on your computer — replace `yourname` with your actual name in lowercase with hyphens, e.g. `server-vm-security-pt1-firstname-lastname.md`
+5. **Fill in your notes** using any text editor (Notepad, VS Code, TextEdit)
+6. **Upload** your completed file back to GitHub — go into `classes/session-12-2026-09-19-server-vm-security-pt1/` on your fork, click **Add file → Upload files**, drag in your file, then click **Commit changes**
+7. **Open a Pull Request** — the facilitator will review your notes before merging
 
 ---
 
-## Pre-Session Preparation
+## Session Files
 
-*Complete this before attending the session.*
-
-**Did you read the Microsoft Learn module ahead of the class?**
-- [ ] Yes — I read the full module
-- [ ] Yes — I read parts of it
-- [ ] No — I will catch up after
-
-**One thing I want to learn from this session:**
-> 
-
-**A question I am bringing into today's session:**
-> 
-
----
-
-## Session Notes
-
-*Take notes during the live session. Use bullet points, code blocks, or any format that works for you.*
-
-### Key Concepts Covered
-
-> 
-
-### Important Points from the Mentor
-
-> 
-
-### Definitions I Learned
-
-| Term | Definition |
-|------|-----------|
-| | |
-| | |
-| | |
-
-### Commands / Code Snippets
-
-```bash
-# Add any CLI commands, code, or config snippets from the session here
-```
-
-### Screenshots / Diagrams
-
-*Describe any diagrams or screenshots that were helpful (you cannot upload images here — describe them in words or link to a screenshot in your fork):*
-> 
-
----
-
-## Hands-On Practice
-
-*Document any labs, demos, or exercises you followed during or after the session.*
-
-### What I practised
-
-> 
-
-### Steps I followed
-
-1. 
-2. 
-3. 
-
-### Errors I encountered and how I solved them
-
-> 
-
----
-
-## Key Takeaways
-
-**Top 3 things I learned today:**
-
-1. 
-2. 
-3. 
-
-**How does this topic connect to the SC-500 exam objectives?**
-> 
-
-**How would I apply this in a real-world security scenario?**
-> 
-
----
-
-## Questions for Next Session
-
-*Note any questions that came up that you want to raise in the next session or in the community channel:*
-
-- 
-- 
-
----
-
-## Resources I Found Useful
-
-*Add any extra links, articles, or docs you found while studying this topic:*
-
-| Resource | Link |
-|----------|------|
-| Microsoft Learn Module | [https://learn.microsoft.com/en-us/training/paths/server-vm-security/](https://learn.microsoft.com/en-us/training/paths/server-vm-security/) |
-| | |
-| | |
-
----
-
-## Self-Assessment
-
-**How confident do you feel about this topic after today? (1 = not confident, 5 = very confident)**
-> 
-
-**What would you like to explore further?**
-> 
+| File | Purpose |
+|------|---------|
+| `README.md` | This file — session overview and instructions |
+| [`server-vm-security-pt1-yourname-template.md`](./server-vm-security-pt1-yourname-template.md) | Template to download, rename, and fill in |
 
 ---
 

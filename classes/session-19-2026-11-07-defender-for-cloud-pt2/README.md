@@ -1,153 +1,51 @@
-# Session 19 — Manage Security Posture Using Microsoft Defender for Cloud — Part 2
+# Session 19 — Microsoft Defender for Cloud — Part 2 (Modules 2–4)
 
-**SC-500 — Modules 2–4**
+**SC-500 — Cloud workload protection and threat detection**
 
 | | |
 |---|---|
 | **Date** | Saturday, 7 November 2026 |
 | **Mentor** | Oluwafemi Akinfenwa |
 | **Moderator** | Amos Adereti |
-| **Microsoft Learn** | [https://learn.microsoft.com/en-us/training/paths/manage-security-posture-defender-cloud/](https://learn.microsoft.com/en-us/training/paths/manage-security-posture-defender-cloud/) |
+| **Microsoft Learn** | [Secure Azure services with Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/training/paths/sc-200-secure-azure-services-workloads-microsoft-defender-cloud/) |
 | **Modules Covered** | Modules 2–4 |
 
 ---
 
-> **Mentees:** Fork this repository, open this file, and fill in your notes below after each session. Commit your changes and open a Pull Request.
+## About This Session
+
+Part 2 moves from posture assessment into active threat detection. Defender for Cloud's workload protection plans (Defender for Servers, Defender for Databases, Defender for Containers, etc.) monitor your running resources and generate security alerts when something suspicious happens.
+
+You will learn how to enable these plans, understand the types of alerts they generate, investigate a security alert from first detection through to resolution, and use the Attack Path Analysis feature to see how an attacker might chain vulnerabilities together to reach a critical resource.
+
+**By the end of this session you will be able to:**
+- Enable Defender for Cloud workload protection plans
+- Interpret and investigate Defender for Cloud security alerts
+- Use Attack Path Analysis to find and close exploit chains
+- Describe how Defender for Cloud integrates with Microsoft Sentinel
 
 ---
 
-## How to Use This File
+## How to Submit Your Notes
 
-1. **Fork** the repository from [Microsoft-Naija-Security-Usergroup/github-onboarding-workshop](https://github.com/Microsoft-Naija-Security-Usergroup/github-onboarding-workshop)
-2. Navigate to `classes/` and open this file
-3. Fill in your **GitHub username** and complete all sections below
-4. Commit with a message like: `docs: add [Your Name] notes for Session 19`
-5. Open a **Pull Request** back to this repo
+> You do not need to know git commands. Just follow these 5 steps.
 
----
-
-## My Details
-
-**Name:**  
-**GitHub Username:**  
-**Session Attended:** Session 19 — Saturday, 7 November 2026  
+1. **Fork** this repository — click the **Fork** button at the top-right of the [main repo page](https://github.com/Microsoft-Naija-Security-Usergroup/github-onboarding-workshop)
+2. **Navigate** into `classes/session-19-2026-11-07-defender-for-cloud-pt2/` on your forked repo
+3. **Download** the template file `defender-for-cloud-pt2-yourname-template.md` — click it, then click the **Raw** button, then right-click and choose *Save As*
+4. **Rename** the file on your computer — replace `yourname` with your actual name in lowercase with hyphens, e.g. `defender-for-cloud-pt2-firstname-lastname.md`
+5. **Fill in your notes** using any text editor (Notepad, VS Code, TextEdit)
+6. **Upload** your completed file back to GitHub — go into `classes/session-19-2026-11-07-defender-for-cloud-pt2/` on your fork, click **Add file → Upload files**, drag in your file, then click **Commit changes**
+7. **Open a Pull Request** — the facilitator will review your notes before merging
 
 ---
 
-## Pre-Session Preparation
+## Session Files
 
-*Complete this before attending the session.*
-
-**Did you read the Microsoft Learn module ahead of the class?**
-- [ ] Yes — I read the full module
-- [ ] Yes — I read parts of it
-- [ ] No — I will catch up after
-
-**One thing I want to learn from this session:**
-> 
-
-**A question I am bringing into today's session:**
-> 
-
----
-
-## Session Notes
-
-*Take notes during the live session. Use bullet points, code blocks, or any format that works for you.*
-
-### Key Concepts Covered
-
-> 
-
-### Important Points from the Mentor
-
-> 
-
-### Definitions I Learned
-
-| Term | Definition |
-|------|-----------|
-| | |
-| | |
-| | |
-
-### Commands / Code Snippets
-
-```bash
-# Add any CLI commands, code, or config snippets from the session here
-```
-
-### Screenshots / Diagrams
-
-*Describe any diagrams or screenshots that were helpful (you cannot upload images here — describe them in words or link to a screenshot in your fork):*
-> 
-
----
-
-## Hands-On Practice
-
-*Document any labs, demos, or exercises you followed during or after the session.*
-
-### What I practised
-
-> 
-
-### Steps I followed
-
-1. 
-2. 
-3. 
-
-### Errors I encountered and how I solved them
-
-> 
-
----
-
-## Key Takeaways
-
-**Top 3 things I learned today:**
-
-1. 
-2. 
-3. 
-
-**How does this topic connect to the SC-500 exam objectives?**
-> 
-
-**How would I apply this in a real-world security scenario?**
-> 
-
----
-
-## Questions for Next Session
-
-*Note any questions that came up that you want to raise in the next session or in the community channel:*
-
-- 
-- 
-
----
-
-## Resources I Found Useful
-
-*Add any extra links, articles, or docs you found while studying this topic:*
-
-| Resource | Link |
-|----------|------|
-| Microsoft Learn Module | [https://learn.microsoft.com/en-us/training/paths/manage-security-posture-defender-cloud/](https://learn.microsoft.com/en-us/training/paths/manage-security-posture-defender-cloud/) |
-| | |
-| | |
-
----
-
-## Self-Assessment
-
-**How confident do you feel about this topic after today? (1 = not confident, 5 = very confident)**
-> 
-
-**What would you like to explore further?**
-> 
+| File | Purpose |
+|------|---------|
+| `README.md` | This file — session overview and instructions |
+| [`defender-for-cloud-pt2-yourname-template.md`](./defender-for-cloud-pt2-yourname-template.md) | Template to download, rename, and fill in |
 
 ---
 

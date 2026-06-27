@@ -1,153 +1,51 @@
-# Session 11 — Implement Security for AI — Part 3
+# Session 11 — AI Security — Part 3 (Modules 7–9)
 
-**SC-500 — Modules 7–9**
+**SC-500 — AI governance, compliance, and threat response**
 
 | | |
 |---|---|
 | **Date** | Saturday, 12 September 2026 |
 | **Mentor** | Faruq Damilola Bakare |
 | **Moderator** | Remilekun Olakunle |
-| **Microsoft Learn** | [https://learn.microsoft.com/en-us/training/paths/implement-ai-security/](https://learn.microsoft.com/en-us/training/paths/implement-ai-security/) |
+| **Microsoft Learn** | [Secure AI workloads in Azure](https://learn.microsoft.com/en-us/training/paths/secure-ai-workloads-azure/) |
 | **Modules Covered** | Modules 7–9 |
 
 ---
 
-> **Mentees:** Fork this repository, open this file, and fill in your notes below after each session. Commit your changes and open a Pull Request.
+## About This Session
+
+The final AI security session focuses on governance and response. As AI becomes embedded in business processes, organisations need clear policies about how it is used, audited, and corrected when things go wrong.
+
+You will cover Microsoft Purview's AI governance features, how to conduct a security review of an AI system, incident response for AI-related security events, and how the SC-500 exam expects you to reason about AI risk in enterprise scenarios.
+
+**By the end of this session you will be able to:**
+- Describe how Microsoft Purview governs AI data usage
+- Conduct a basic security assessment of an AI-powered application
+- Outline an incident response plan for an AI security event
+- Tie AI security concepts to SC-500 exam objectives
 
 ---
 
-## How to Use This File
+## How to Submit Your Notes
 
-1. **Fork** the repository from [Microsoft-Naija-Security-Usergroup/github-onboarding-workshop](https://github.com/Microsoft-Naija-Security-Usergroup/github-onboarding-workshop)
-2. Navigate to `classes/` and open this file
-3. Fill in your **GitHub username** and complete all sections below
-4. Commit with a message like: `docs: add [Your Name] notes for Session 11`
-5. Open a **Pull Request** back to this repo
+> You do not need to know git commands. Just follow these 5 steps.
 
----
-
-## My Details
-
-**Name:**  
-**GitHub Username:**  
-**Session Attended:** Session 11 — Saturday, 12 September 2026  
+1. **Fork** this repository — click the **Fork** button at the top-right of the [main repo page](https://github.com/Microsoft-Naija-Security-Usergroup/github-onboarding-workshop)
+2. **Navigate** into `classes/session-11-2026-09-12-ai-security-pt3/` on your forked repo
+3. **Download** the template file `ai-security-pt3-yourname-template.md` — click it, then click the **Raw** button, then right-click and choose *Save As*
+4. **Rename** the file on your computer — replace `yourname` with your actual name in lowercase with hyphens, e.g. `ai-security-pt3-firstname-lastname.md`
+5. **Fill in your notes** using any text editor (Notepad, VS Code, TextEdit)
+6. **Upload** your completed file back to GitHub — go into `classes/session-11-2026-09-12-ai-security-pt3/` on your fork, click **Add file → Upload files**, drag in your file, then click **Commit changes**
+7. **Open a Pull Request** — the facilitator will review your notes before merging
 
 ---
 
-## Pre-Session Preparation
+## Session Files
 
-*Complete this before attending the session.*
-
-**Did you read the Microsoft Learn module ahead of the class?**
-- [ ] Yes — I read the full module
-- [ ] Yes — I read parts of it
-- [ ] No — I will catch up after
-
-**One thing I want to learn from this session:**
-> 
-
-**A question I am bringing into today's session:**
-> 
-
----
-
-## Session Notes
-
-*Take notes during the live session. Use bullet points, code blocks, or any format that works for you.*
-
-### Key Concepts Covered
-
-> 
-
-### Important Points from the Mentor
-
-> 
-
-### Definitions I Learned
-
-| Term | Definition |
-|------|-----------|
-| | |
-| | |
-| | |
-
-### Commands / Code Snippets
-
-```bash
-# Add any CLI commands, code, or config snippets from the session here
-```
-
-### Screenshots / Diagrams
-
-*Describe any diagrams or screenshots that were helpful (you cannot upload images here — describe them in words or link to a screenshot in your fork):*
-> 
-
----
-
-## Hands-On Practice
-
-*Document any labs, demos, or exercises you followed during or after the session.*
-
-### What I practised
-
-> 
-
-### Steps I followed
-
-1. 
-2. 
-3. 
-
-### Errors I encountered and how I solved them
-
-> 
-
----
-
-## Key Takeaways
-
-**Top 3 things I learned today:**
-
-1. 
-2. 
-3. 
-
-**How does this topic connect to the SC-500 exam objectives?**
-> 
-
-**How would I apply this in a real-world security scenario?**
-> 
-
----
-
-## Questions for Next Session
-
-*Note any questions that came up that you want to raise in the next session or in the community channel:*
-
-- 
-- 
-
----
-
-## Resources I Found Useful
-
-*Add any extra links, articles, or docs you found while studying this topic:*
-
-| Resource | Link |
-|----------|------|
-| Microsoft Learn Module | [https://learn.microsoft.com/en-us/training/paths/implement-ai-security/](https://learn.microsoft.com/en-us/training/paths/implement-ai-security/) |
-| | |
-| | |
-
----
-
-## Self-Assessment
-
-**How confident do you feel about this topic after today? (1 = not confident, 5 = very confident)**
-> 
-
-**What would you like to explore further?**
-> 
+| File | Purpose |
+|------|---------|
+| `README.md` | This file — session overview and instructions |
+| [`ai-security-pt3-yourname-template.md`](./ai-security-pt3-yourname-template.md) | Template to download, rename, and fill in |
 
 ---
 
